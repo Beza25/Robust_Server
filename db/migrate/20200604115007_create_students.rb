@@ -7,6 +7,7 @@ class CreateStudents < ActiveRecord::Migration[6.0]
       t.string :password_digest
       t.integer :level
       t.string :img, default: "https://i0.wp.com/www.mvhsoracle.com/wp-content/uploads/2018/08/default-avatar.jpg" 
+      t.string :user, default: "student" 
 
       t.timestamps
     end

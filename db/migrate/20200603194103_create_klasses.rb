@@ -4,6 +4,7 @@ class CreateKlasses < ActiveRecord::Migration[6.0]
       t.string :name
       t.integer :teacher_id
       t.integer :level
+      t.string :img, default: "https://clipartstation.com/wp-content/uploads/2018/10/textbooks-clipart-5.jpg"
 
       t.timestamps
     end

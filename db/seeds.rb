@@ -22,13 +22,13 @@ dawit= Student.create(first_name:"Dawit",last_name:"Gizaw", username:"dawit", le
 junior= Student.create(first_name:"Junior", username:"junior", level:7 )
 alex= Student.create(first_name:"Alex", username:"alex", level:4, img:"https://ca.slack-edge.com/T02MD9XTF-UU5CW4UJU-58c556fcb625-512" )
 
- math4= Klass.create(name:"Math", teacher: carla, level: 4)
- math5= Klass.create(name:"Math", teacher: carla, level: 5)
- math6= Klass.create(name:"Math", teacher: carla, level: 6)
- math7= Klass.create(name:"Math", teacher: carla, level: 7)
-english4= Klass.create(name:"Math", teacher: ann, level: 4)
-english5= Klass.create(name:"Math", teacher: ann, level: 5)
-english6= Klass.create(name:"Math", teacher: ann, level: 6)
+ math4= Klass.create(name:"Math", teacher: carla, level: 4, img: "https://img.clipartlook.com/big-image-png-math-images-clip-art-2254_2174.png")
+ math5= Klass.create(name:"Math", teacher: carla, level: 5, img: "https://img.pngio.com/math-png-images-vectors-and-psd-files-free-download-on-pngtree-maths-png-650_720.png")
+ math6= Klass.create(name:"Math", teacher: carla, level: 6, img:"https://us.123rf.com/450wm/sn333g/sn333g1803/sn333g180300019/96670673-mathematics-circular-flat-illustration-with-math-symbol-.jpg")
+ math7= Klass.create(name:"Math", teacher: carla, level: 7, img: "https://img.freepik.com/free-vector/chalkboard-with-math-elements_1411-88.jpg?size=338&ext=jpg")
+english4= Klass.create(name:"English", teacher: ann, level:  4,img: "https://amybellepta.digitalpto.com/files/2018/02/Book-fair.jpg")
+english5= Klass.create(name:"English", teacher: ann, level: 5, img: "https://i.pinimg.com/originals/83/c8/6f/83c86f13a87acf745733a7923f5817f1.png")
+english6= Klass.create(name:"English", teacher: ann, level: 6, img:"https://s26162.pcdn.co/wp-content/uploads/2019/07/writing.jpg")
 
 # sc = student_class
 sc1=StudentKlass.create(klass:math4, student:alex)
