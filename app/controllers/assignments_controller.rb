@@ -24,13 +24,13 @@ class AssignmentsController < ApplicationController
     end
 
     def update
-        assign = Assignment.find(a.id)
+        assign = Assignment.find(params[:id])
 
         assign.update(
             title: params[:title], 
             content: params[:content],
-            deadline: params[:startDate],
-            klass_id: params[:klass_id])
+            deadline: params[:startDate]
+        )
             
         
         render json: assign
@@ -40,7 +40,7 @@ class AssignmentsController < ApplicationController
 
     def destroy
         assign = Assignment.find(params[:id])
-        assig.destroy()
+        assign.destroy()
     end
 
 
